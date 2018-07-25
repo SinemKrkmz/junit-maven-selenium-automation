@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.exampleautomation.testcases.SearchPagingPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.308 sec <<< FAILURE! - in com.exampleautomation.testcases.SearchPagingPageTest
+searchPagingTest(com.exampleautomation.testcases.SearchPagingPageTest)  Time elapsed: 5.695 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...amsung - n11.com - 2[/11444]> but was:<...amsung - n11.com - 2[]>
+	at com.exampleautomation.testcases.SearchPagingPageTest.searchPagingTest(SearchPagingPageTest.java:38)
+
