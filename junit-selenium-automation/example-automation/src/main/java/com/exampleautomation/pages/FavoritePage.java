@@ -21,8 +21,8 @@ public class FavoritePage extends TestBase {
 	@FindBy(xpath = "//*[@id=\"view\"]/ul/li[3]/div/div/a/h3")
 	private WebElement thirdProductName;
     
-	//Favorilere Ekleme 
-	@FindBy(xpath = "//*[@class=\"listView \"]/ul/li[3]/div/div[2]/span[2]")
+	//Favorilere Ekleme//*////
+	@FindBy(xpath = "//*[@id=\"view \"]/ul/li[3]/div/div[2]/div[2]/span")
 	private WebElement favoriAddButton;
     
 	//Favori sayfasını açar
@@ -55,12 +55,12 @@ public class FavoritePage extends TestBase {
 	public void selectThirdProduct() {
 		setFavoriteProduct();
 		thirdProductInList.click();
-		favoriAddButton.click();
+		
+		
 	}
 
 	public String setFavoriteProduct() {
 		third_product_name = thirdProductName.getText();
-		
 		return third_product_name;
 		
 
@@ -68,7 +68,9 @@ public class FavoritePage extends TestBase {
 
 	public void addFavoriteProduct() {
 		setFavoriteProduct();
-		favoriAddButton.click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.getElementsByClassName(\"columnContent \")[3].getElementsByClassName(\"proDetail\")[0].getElementsByClassName(\"followBtn\")[0].click();");
+
 	}
 
 	public void goToFavoriteList() {

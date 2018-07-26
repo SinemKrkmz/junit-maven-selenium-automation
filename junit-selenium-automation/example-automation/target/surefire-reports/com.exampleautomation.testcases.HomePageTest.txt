@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.exampleautomation.testcases.HomePageTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.591 sec <<< FAILURE! - in com.exampleautomation.testcases.HomePageTest
-verifyHomePageTitleTest(com.exampleautomation.testcases.HomePageTest)  Time elapsed: 0.048 sec  <<< FAILURE!
-org.junit.ComparisonFailure: n11.com - Alýþveriþin Uðurlu Adresi expected:<[n11.com]> but was:<[Alýþveriþin Uðurlu Adresi]>
-	at com.exampleautomation.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:34)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.6 sec - in com.exampleautomation.testcases.HomePageTest

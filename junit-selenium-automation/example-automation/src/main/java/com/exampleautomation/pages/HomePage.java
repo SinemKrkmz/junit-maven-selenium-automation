@@ -11,13 +11,6 @@ import com.exampleautomation.base.TestBase;
 
 public class HomePage extends TestBase {
 
-	@FindBy(xpath = "//td[contains(text(),'User: Naveen K')]")
-	@CacheLookup
-	WebElement userNameLabel;
-
-
-	
-
 
 	// Initializing the Page Objects:
 	public HomePage() {

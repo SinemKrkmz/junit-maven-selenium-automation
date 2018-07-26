@@ -63,7 +63,7 @@ public class FavoritePageTest  extends TestBase{
 	public void test_2_2_deleteConfirmationForProduct () {
 		
 		Assert.assertTrue(favoritePage.deleteConfirmForProduct());
-		System.out.println("Ürününüz favorilerde yer almıyor....");
+	
  
 	}
 		
