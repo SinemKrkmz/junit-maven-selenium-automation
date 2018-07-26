@@ -18,7 +18,7 @@ Case
 7.Favorilerime git
 8.Ürünü eklediğini doğrula
 9.Favori ürünü sil
-10Favori Ürünü sildiğini doğrula
+10.Favori Ürünü sildiğini doğrula
 
 Editlenmesi gereken kısım 
 Chrome Driver TestBase sayfasında satır 42
