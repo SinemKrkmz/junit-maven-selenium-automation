@@ -9,16 +9,16 @@ Chrome Driver
 
 Case
 
-1.Anasayfaya Git
-2.Login Ol
-3.Samsung ürün ara
-4.İkinci sayfaya git
-5.İkinci sayfada olduğunu doğrula
-6.Üçüncü ürünü favorilere ekle
-7.Favorilerime git
-8.Ürünü eklediğini doğrula
-9.Favori ürünü sil
-10.Favori Ürünü sildiğini doğrula
+1.Anasayfaya Git </br>
+2.Login Ol </br>
+3.Samsung ürün ara </br>
+4.İkinci sayfaya git </br>
+5.İkinci sayfada olduğunu doğrula </br>
+6.Üçüncü ürünü favorilere ekle </br>
+7.Favorilerime git </br>
+8.Ürünü eklediğini doğrula </br>
+9.Favori ürünü sil </br>
+10.Favori Ürünü sildiğini doğrula </br>
 
-Editlenmesi gereken kısım 
+Editlenmesi gereken kısım </br>
 Chrome Driver TestBase sayfasında satır 42
