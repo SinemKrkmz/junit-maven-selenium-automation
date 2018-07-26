@@ -13,9 +13,9 @@ Case
 2.Login Ol
 3.Samsung ürün ara
 4.İkinci sayfaya git
-5. İkinci sayfada olduğunu doğrula
+5.İkinci sayfada olduğunu doğrula
 6.Üçüncü ürünü favorilere ekle
-7. Favorilerime git
+7.Favorilerime git
 8.Ürünü eklediğini doğrula
 9.Favori ürünü sil
 10Favori Ürünü sildiğini doğrula
